@@ -4,12 +4,13 @@
 	"description": "<h4>Templete Two <h4>\r <h2>Website Link <h2>\r https://ahmed-4902.github.io/kasper/",
 	"main": "main.js",
 	"scripts": {
-		"compile:sass": "sass --watch app/scss:dist"
+		"compile:sass": "sass --watch src/scss:build/css"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.4.0",
 		"sass": "^1.58.0"
 	}
 }
